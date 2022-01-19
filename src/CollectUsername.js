@@ -6,6 +6,16 @@ const CollectUsername = () => {
     const [userInput, setUserInput] = useState('');
     const [userName, setUserName] = useState('');
     const [dateCreated, setDateCreated] = useState('2-3-21');
+    const [loginName, setLoginName] = useState('2-3-21');
+    const [bio, setBio] = useState('2-3-21');
+    const [NoOfRepos, setNoOfRepos] = useState('2-3-21');
+    const [noOfFollowers, setNoOfFollowers] = useState('2-3-21');
+    const [noOfFollowing, setNoOfFollowing] = useState('2-3-21');
+    const [location, setlocation] = useState('2-3-21');
+    const [twitterHandle, settwitterHandle] = useState('2-3-21');
+    const [blog, setBlog] = useState('2-3-21');
+    
+    
 
     const handleSubmit = (e) => {
           e.preventDefault();
@@ -52,23 +62,23 @@ const CollectUsername = () => {
                             <div className="card-block text-white">
                                 
                                 <div className="row" >
-                                            <div className="col-md-2 dev-image">
-                                                {/* <img src={user.img}/> */}
-                                                HEY
-                                            </div>
+                                    <div className="col-md-2 dev-image">
+                                        {/* <img src={user.img}/> */}
+                                        HEY
+                                    </div>
 
-                                            <div className="col-md-10 text-dark">
-                                                <div className="row flex-container">
-                                                    <div className="flex-one">
-                                                        <h2>{userName}</h2>
-                                                    </div>
-                                                    <div className="flex-one">
-                                                        <h2>{dateCreated}</h2>
-                                                    </div>
-                                                </div>
-                                                
+                                    <div className="col-md-10 text-dark">
+                                        <div className="row flex-container">
+                                            <div className="flex-one">
+                                                <h2>{userName}</h2>
+                                            </div>
+                                            <div className="flex-one">
+                                                <h2>{dateCreated}</h2>
                                             </div>
                                         </div>
+                                        
+                                    </div>
+                                </div>
                             
                                 
                             </div>
