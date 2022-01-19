@@ -1,0 +1,40 @@
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  width: 75%;
+  margin-bottom: 10px;
+}
+
+.icon {
+  padding: 10px;
+  min-width: 40px;
+  color: black;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+body{
+  background-color: rgb(4, 4, 31);
+}
+.input-form {
+  background-color: rgb(9, 9, 43);
+  color: white;
+}
+.input-form:focus {
+  background-color: rgb(9, 9, 43);
+  color: white;
+}
+.flex-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
